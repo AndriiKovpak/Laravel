@@ -1,0 +1,85 @@
+.addNewUser{
+  margin-top:9px;
+}
+
+.user_active{
+  background-color: $gray-four;
+  color: $gray-three;
+}
+
+a:hover {
+  cursor:pointer;
+}
+
+.DivisionDistrictsScroll{
+  overflow-y:scroll;
+  height:200px;
+  border: rgba(241, 241, 241,241) 2px double;
+}
+.DivisionDistrictsScroll ul{
+  padding-left:10px;
+}
+
+.district_navigation{
+  padding-top:35px;
+  font-size:1.3em;
+  color:$gray-two;
+}
+
+.district_navigation button{
+  color:$gray-two;
+}
+
+.district_navigation button:hover{
+   color:$gray-five;
+}
+
+.district_navigation button{
+  border:none;
+  background:none;
+}
+
+.toggleDistrict{
+ background-color: #ff1600;
+ color: white;
+}
+
+@media (max-width: 992px) {
+  .searchUsers{
+    margin-left:-15px;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+  .addNewUser{
+    margin-top:21px;
+    padding-right:0px;
+    padding-bottom:15px;
+  }
+}
+
+@media (max-width:768px){
+  .searchUsers{
+    margin-left: 0;
+    padding: 15px 0px 0px 0px;
+  }
+  .addNewUser{
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+}
+
+@media(max-width: 500px) {
+  .UACE_btn h1{
+    font-size: .9em;
+  }
+}
+
+@media(max-width: 386px){
+  .district_navigation{
+    /*padding-top:85px;*/
+    padding-left:0;
+    padding-right:0;
+  }
+}

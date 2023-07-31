@@ -1,0 +1,84 @@
+.wrapper.clearfix {
+    min-height: calc(100vh - 85px);
+}
+
+.page-item.active .page-link {
+    background-color: transparent!important;
+}
+
+.user-navbar {
+    align-items: flex-end!important;
+}
+
+.circuit-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.circuit-header-wrapper strong.title {
+    min-width: 300px;
+    display: block;
+    align-items: stretch;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ddd;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.circuit-header-wrapper ul.navbar-wrapper {
+    justify-content: flex-end;
+    float: none;
+    border-bottom-width: 2px;
+}
+.circuit-header-wrapper ul.navbar-wrapper .nva-link {
+    border: 3px solid #ddd;
+}
+.circuit-header-wrapper ul.navbar-wrapper .nva-link:hover {
+    border: 3px solid #ddd;
+}
+.circuit-header-wrapper ul.navbar-wrapper .nva-link.active {
+    border-bottom: 3px solid #ddd;
+}
+.circuit-tab-content.tab-content .tab-pane {
+    background: transparent;
+}
+
+@media(max-width: 768px) {
+    .circuit-header-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 24px;
+    }
+    .circuit-header-wrapper ul.navbar-wrapper {
+        justify-content: flex-start;
+
+    }
+    .circuit-header-wrapper strong.title {
+        border: none;
+    }
+}
+
+/** additional min-height, was applyed on inventory.js */
+textarea.form-control {
+    min-height: 60px;
+    padding: 0.5rem 0.75rem;
+}
+
+
+/** Inventory show with notes */
+.inventory-show-note {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.inventory-show-note i {
+    cursor: pointer;
+}
+
+.inventoryNoteHistory {
+    display: none;
+}

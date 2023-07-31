@@ -1,0 +1,57 @@
+.inventory-circuits {
+
+  .circuit-container {
+    /*overflow-y: scroll;*/
+    // border-left: 1px solid grey;
+    // box-shadow: -10px 0 15px #888888;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    /*min-height: 479px;*/
+    min-height: 700px;
+    .circuit-content {
+      width: 100%;
+      /*position: absolute;*/
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#amount-alert-message{
+  display:none;
+}
+
+#duplicate-alert-message{
+  display:none;
+}
+
+.list-invoice select{
+    font-size:1.1em;
+}
+
+.easy-autocomplete input {
+  border-radius: 0;
+}
+
+.carrier_details_edit{
+  display:none;
+}
+
+.submit_update_carrier_detials_btn{
+  display:none;
+}
+
+.ap_btn{
+  width:100%;
+}
+.confirmation h3 {
+  display: inline-block;
+  color: gray;
+}
+
+@media(max-width: 768px){
+  .ap_btn{
+    margin-top:10px;
+  }
+}

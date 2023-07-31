@@ -1,0 +1,75 @@
+/* single slide at once */
+.carousel-inner .active.left {
+  left: -33%;
+}
+
+.carousel-inner .next {
+  left: 33%;
+}
+
+.carousel-inner .prev {
+  left: -33%;
+}
+
+.carousel-item.active.left {
+  opacity: 0.3;
+}
+
+.carousel-item.active.right {
+  opacity: 0.3;
+}
+
+.carousel-item.active.left > div:not(:first-child) {
+  display: none;
+}
+
+.carousel-item.active.right > div:not(:first-child) {
+  display: none;
+}
+
+.carousel-control {
+  padding-top: 25px;
+  color: #cecece;
+  text-shadow: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  top:15px;
+}
+
+.carousel-inner > .carousel-item {
+  color: $gray-three;
+  text-align: center;
+}
+
+.carousel-inner > .carousel-item > div {
+  width: 20%;
+  padding: 15px 5px;
+  float: left;
+}
+
+.carousel-inner > .carousel-item a i {
+  color: $gray-three;
+  font-size: 38px;
+}
+
+.carousel-inner > .carousel-item span {
+  color: $darker-gray;
+  font-size: 12px;
+  padding: 15px 0 0 0;
+  display: block;
+}
+
+.carousel-control {
+  width: auto;
+}
+
+.carousel-control.left {
+  margin-left: -15px;
+}
+
+.carousel-control.right {
+  margin-right: -15px;
+}

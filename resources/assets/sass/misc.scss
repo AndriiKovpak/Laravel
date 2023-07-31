@@ -1,0 +1,71 @@
+/* Misc */
+.border-white {
+  border: 1px solid $white !important;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.mar-t7 {
+  margin-top: 7px;
+}
+
+.common-heading {
+  color: $gray-three;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 0 14px 0;
+  padding-bottom: 4px;
+  font-weight: 600;
+  border-bottom: 4px solid $gray-four;
+}
+
+.common-heading.second {
+  margin-top: 15px;
+}
+
+.field-padding {
+  padding: 2px 5px;
+}
+
+.form-group label:nth-of-type(2), .selected-district label {
+  color: red !important;
+}
+
+#show-hide {
+  cursor: pointer;
+  margin-top: 26px;
+  margin-left: 81%;
+  position: absolute;
+}
+
+.showTooltip + .tooltip > .tooltip-inner {
+  font-size: 10px;
+}
+
+.not-found {
+  display: inline-block;
+  color: gray;
+  padding-top: 46px;
+}
+
+.show-block {
+  display: block;
+}
+
+.hide-block {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.removeInput {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  z-index: 10;
+  cursor: pointer;
+}

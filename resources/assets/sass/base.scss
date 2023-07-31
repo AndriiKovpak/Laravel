@@ -1,0 +1,257 @@
+body {
+  font-size: 14px;
+  color: $black;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+.easy-autocomplete{
+  width:100%;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.Addresses {
+  display:none;
+}
+ul, li {
+  list-style: none;
+}
+
+a:focus, a:hover {
+  color: #666565;
+  text-decoration: none;
+}
+
+a.default {
+  color: $gray-one;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+label {
+  color: $gray-five;//$gray-two;
+  font-size: 12px;
+  margin: 0;
+}
+
+.easy-autocomplete input{
+  width: 100%;
+  height: 32px;
+  border: 2px solid $light-gray;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0 0.75rem;
+}
+
+
+.form-control {
+  width: 100%;
+  height: 32px;
+  border: 2px solid $light-gray;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0 0.75rem;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: $white;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: 32px;
+}
+
+.form-group {
+  position: relative;
+}
+
+select.form-control {
+  background: url(../images/select-arrow.png) no-repeat 98% center $white;
+  font-size: 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select.form-control::-ms-expand {
+  display: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+/*.form-control.password{
+	background:url(../images/password-ico.png) no-repeat 98% center;
+}*/
+
+.simple-search {
+    position: relative;
+
+    .search-field {
+        width: 100%;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .search-btn {
+        background: none;
+        border: none;
+        position: absolute;
+        z-index: 10;
+        top: 3px;
+        right: 3px;
+        color: $gray-four;
+    }
+}
+
+.btn-primary {
+  background: $black;
+  width: 113px;
+  height: 30px;
+  line-height: 30px;
+  color: $white;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: $dark-gray;
+  transition: all 0.3s;
+}
+
+.btn-secondary {
+  background: $gray-three;
+  width: 113px;
+  height: 30px;
+  line-height: 30px;
+  color: $white;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background: #635854;
+  color: $white;
+  transition: all 0.3s;
+}
+
+.btn-primary.refresh {
+  background-image: url(../images/refresh.png);
+  background-repeat: no-repeat;
+  background-position: 34% center;
+}
+
+.table th, .table td {
+  font-size: 12px;
+  padding: 0.5rem 0.75rem;
+  border: none;
+}
+
+.table-striped tbody tr:nth-of-type(n+1) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+
+.alert-success {
+  background: $blue;
+  border: none;
+  color: $white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.alert-success span {
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+}
+
+.alert {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.alert-success .close {
+  color: $white;
+  opacity: 1;
+}
+
+.pagination {
+  display: flex;
+  -webkit-box-pack: center !important;
+  justify-content: center !important;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+
+  &, & li, & li a {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  li {
+    font-weight: normal;
+    padding: 5px;
+
+    &.active {
+      font-weight: bold;
+      color: $white;
+      background: $red-two;
+    }
+
+    & a {
+      font-weight: normal;
+      color: $gray-five;
+    }
+
+    &.disabled {
+      font-weight: normal;
+      color: $gray-six;
+    }
+
+    &:first-child {
+      a:after,
+      span:after {
+        content: " Previous";
+      }
+    }
+
+    &:last-child {
+      a:before,
+      span:before {
+        content: "Next ";
+      }
+    }
+  }
+}

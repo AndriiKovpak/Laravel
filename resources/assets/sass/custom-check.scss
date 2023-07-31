@@ -1,0 +1,51 @@
+
+.custom-check {
+  display: none;
+}
+
+.custom-check + label {
+  position: relative;
+  padding-left: 22px;
+}
+
+.custom-check + label:before {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  content: "";
+  border: 2px solid $light-gray;
+  left: 0;
+  top: 0;
+  transition: all 0.3s;
+  background: $white;
+}
+
+.custom-check.second + label:before {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 2px solid $gray-four;
+}
+
+.custom-check:checked + label:before {
+  background: $red-two;
+  border-color: $red-two;
+}
+
+.custom-check + label:after {
+  width: 12px;
+  height: 7px;
+  position: absolute;
+  content: "";
+  transition: all 0.3s;
+  left: 2px;
+  border: 2px solid transparent;
+  transform: rotate(0deg);
+  top: 2px;
+}
+
+.custom-check:checked + label:after {
+  border-left-color: $white;
+  border-bottom-color: $white;
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,298 @@
+
+.carrier_table th {
+  color: #B0B0B0;
+  font-size: 1.1em;
+}
+textarea.form-control{
+  height:60px;
+}
+
+h2{
+  color: #776c68;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.viewAllCarriers{
+  margin-top:6px;
+}
+
+.noteInputTemplate{
+  display:none;
+}
+
+.carrier_table {
+  border-top: 4px solid $gray-four;
+  margin-top: 15px;
+}
+
+.delete_note{
+  font-size:1.8em;
+  color:#776c68;
+  padding-top:22px;
+}
+
+.delete_contact{
+  font-size: 1.8em;
+  color: #776c68;
+}
+.delete_contact:hover{
+  color: black;
+}
+
+.delete_note:hover{
+   color:black;
+ }
+
+.Add_New_Carrier_Contact_Button{
+  color: #776c68;
+  font-size: 1.3em;
+}
+.Add_New_Carrier_Contact_Button:hover{
+  color:black;
+}
+.NewCarrierContactTemplate{
+}
+
+.carrier_header {
+  color: $gray-three;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  padding-bottom: 4px;
+  font-weight: 600;
+}
+
+.common-heading2{
+  color: $gray-three;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 0 0px 0;
+  padding-bottom: 0px;
+  font-weight: 600;
+}
+
+.border-bottom2{
+  border-bottom: 4px solid #cbcbcb;
+}
+
+.fa-ac {
+  font-size:1.5em;
+}
+
+.carrier_table_nav_pages {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.carrier_table_nav_pages li {
+  display: inline;
+  padding: 5px;
+}
+
+.carrier_table_nav_pages li a {
+  color: black;
+}
+
+.table-responsive li a:hover {
+  color: $red-two;
+}
+.table-responsive li .table-active:hover{
+  color:white;
+}
+
+.table-striped tbody tr:hover{
+  background-color: $red-two;
+  color: white;
+}
+
+.no-highlight{
+  background-color: white;
+}
+
+.table-responsive tbody tr:hover {
+  background-color: $red-two;
+  color: white;
+}
+
+.table-responsive tbody tr:hover a {
+  background-color: $red-two;
+  color: white;
+}
+.table-responsive tbody .table-active:hover a {
+  background-color: transparent;
+  color: white;
+}
+
+
+.contacts_table_nav_pages li {
+  display: inline;
+  padding: 5px;
+}
+
+.contacts_table_nav_pages li a {
+  color: black;
+}
+/*
+.contacts_table_nav_pages li a:hover {
+  color: $red-two;
+}
+
+.contacts_table tbody tr:hover {
+  background-color: $red-two;
+  color: white;
+}
+
+.carrier_table tbody tr:hover + .fa-ac {
+  background-color: $red-two;
+  color: white;
+}
+
+*/
+
+
+.container a {
+  color: $gray-five;//$gray-two;
+}
+
+.container .btn-secondary {
+  color: white;
+}
+
+.container .btn-primary {
+  color: white;
+}
+
+#list_carriers{
+  display:none;
+}
+
+.searchCarriers .col-xs-10 {
+  padding: 0;
+}
+
+.list_carriers {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px;
+  background-color: $gray-three;
+  color: lightgrey;
+}
+
+.list_carriers a {
+  color: lightgrey;
+  font-size: 1.6em;
+}
+
+.letters {
+  padding: 5px;
+}
+
+.letters:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#hide_carrier_list {
+  color: lightgrey;
+  opacity:4;
+}
+
+#hide_carrier_list:hover {
+  color: white;
+  opacity:1;
+}
+
+.bottom_container_edit{
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color:lightgrey;
+}
+
+.container a.nav_button {
+  color:#93958c;
+}
+.addNewCarrierDiv{
+  margin-top:5px;
+}
+.addNewCarrierDiv a {
+  display:inline;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom_container_details{
+  padding-top:25px; padding-bottom:25px; background-color:lightgrey; margin-top:5%;
+}
+
+.addCarrier{
+  padding:0;
+}
+
+.hideMob {
+  padding-left:10px;
+  padding-right:13px;
+}
+
+.IsPaperless{
+  padding-top:25px;
+}
+
+.add_Note{
+  color:$gray-three;
+  font-size:1.3em;
+}
+
+.add_Note:hover{
+  color:black;
+}
+
+.add_Note_Edit{
+  color:$gray-three;
+  font-size:1.3em;
+}
+
+.add_Note_Edit:hover{
+  color:black;
+}
+
+@media (max-width: 1200px) {
+  .list_carriers a {
+    color: lightgrey;
+    font-size: 1.2em;
+  }
+}
+
+@media(max-width: 768px){
+
+  .IsPaperless{
+    padding-top:0;
+  }
+  .add_Note{
+    padding-top:0px;
+    padding-bottom:10px;
+  }
+  .hideMob {
+    display:none;
+  }
+  .addNewCarrierDiv{
+    margin-top:10px;
+    padding-right:15px;
+    margin-right:15px;
+  }
+  .addCarrier{
+    text-align:right;
+    padding-right:15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .list_carriers a {
+    color: lightgrey;
+    font-size: 1.4em;
+  }
+}
