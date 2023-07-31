@@ -1,0 +1,123 @@
+/* report */
+.send-mail .modal-header {
+  background: $light-gray;
+  height: 46px;
+  line-height: 46px;
+  color: $gray-three;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.send-mail .modal-content {
+  background-clip: inherit;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.send-mail .modal-dialog .close-btn {
+  color: $white;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.report-section {
+  width: 100%;
+  float: left;
+}
+
+.report-section .search .form-control {
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.report-section .search .search-btn {
+  position: absolute;
+  z-index: 10;
+  top: 3px;
+  right: 24px;
+}
+
+.report-section .search .search-btn a {
+  color: $gray-four;
+}
+
+.report-section h2 {
+  background: $light-gray;
+  color: $gray-three;
+  font-size: 17px;
+  margin: 15px 0 7px 0;
+  padding: 0 0 0 10px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: Calibri, Arial, sans-serif;
+}
+
+.report-section .report-view {
+  min-height: 134px;
+  color: $gray-three;
+  font-size: 38px;
+  text-align: center;
+  padding: 15px 15px 10px 15px;
+  border: 3px solid transparent;
+  float: left;
+}
+
+.report-section .report-view span {
+  color: #7c6c68;
+  display: block;
+  font-size: 12px;
+  padding: 5px 0 0;
+}
+
+.report-section .report-view:hover {
+  color: $red-two;
+  border: 3px solid $gray-four;
+}
+
+.report-section .report-view:hover span {
+  display: none;
+}
+
+.report-section .report-view .option {
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  padding: 5px 0 0 0;
+  display: none;
+}
+
+.report-section .report-view .option li {
+  width: auto;
+  min-height: auto;
+  border: none;
+  font-size: 0;
+  border-left: 1px solid $gray-four;
+  display: inline-block;
+  padding: 5px 0;
+  float: none;
+}
+
+.report-section .report-view .option li:first-child {
+  border: none;
+}
+
+.report-section .report-view .option li a {
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.report-section .report-view:hover .option {
+  display: block;
+}
+
+@media(max-width: 428px){
+  .report-section .report-view .option li {
+    border-left:none;
+  }
+}

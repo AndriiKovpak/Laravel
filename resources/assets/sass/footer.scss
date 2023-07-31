@@ -1,0 +1,30 @@
+.footer {
+  background: url(/assets/images/footer-bg.png) no-repeat 98% 10px $black;
+  width: 100%;
+  padding: 35px 0 5px 0;
+  float: left;
+}
+
+.footer li {
+  color: $white;
+  list-style: none;
+}
+
+.footer li a {
+  color: $white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer li a:hover {
+  color: $gray-five;
+}
+
+.footer span {
+  color: $gray-five;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 30px 0 0 0;
+  text-align: center;
+  display: block;
+}

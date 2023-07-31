@@ -1,0 +1,113 @@
+@media screen and (min-width: 768px) {
+
+
+  .left-side {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+  }
+  .logo {
+    margin: 52px 0 0 118px;
+  }
+  .login-form {
+    padding: 52px 20px 270px 20px;
+  }
+
+
+  /* Dashboard */
+  .top-nav ul li {
+    border-left: 1px solid $gray-two;
+  }
+  .nav-tabs .nav-link {
+    padding: 0 18px;
+  }
+  .navbar-nav {
+    width: auto;
+    padding-top: 10px;
+    margin-bottom: -16px;
+    display: inline-block;
+  }
+  .navbar-nav .nav-item + .nav-item {
+    margin: 0;
+  }
+  .navbar-nav .nav-link {
+    margin-bottom: 13px;
+    padding: 0 1rem;
+    border-left: 1px solid $gray-two;
+  }
+  .navbar-nav .nav-item.active {
+    border-bottom: 8px solid $red-two;
+  }
+  .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .search-bar {
+    border: 1px solid $white;
+  }
+  .search-bar .form-control {
+    width: 82%;
+  }
+  .search-bar .search-btn {
+    width: 18%;
+  }
+  .search-section .select-menu {
+    margin: 0;
+  }
+  .nav-tabs .nav-link span span {
+    display: inline;
+  }
+  .search-bar .form-control {
+    margin-bottom: 0;
+  }
+  .carousel-inner > .carousel-item > div {
+    padding: 15px 20px;
+  }
+
+  /* report */
+  .report-section li {
+    width: 20%;
+    min-height: 135px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .navbar-nav {
+    width: auto;
+    padding-top: 0;
+    margin-bottom: -16px;
+    display: inline-block;
+  }
+  .nav-tabs .nav-link {
+    padding: 0 40px;
+  }
+
+  /* report */
+  .report-section li {
+    width: 16.6%;
+  }
+  .report-section li .option li a {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .navbar-nav {
+    width: auto;
+    padding-top: 0;
+    margin-bottom: -16px;
+    display: inline-block;
+  }
+  .nav-tabs .nav-link {
+    padding: 0 40px;
+  }
+
+  /* report */
+  .report-section li {
+    min-height: 115px;
+  }
+  .report-section li .option li a {
+    padding: 0 10px;
+  }
+}

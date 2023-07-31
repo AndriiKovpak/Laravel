@@ -1,0 +1,338 @@
+/* Invoice */
+
+#scan_pending_invoices{
+  color:black;
+}
+
+.option-ico {
+  width: 100%;
+  padding: 12px 0 0 0;
+}
+
+.option-ico.second {
+  padding: 0;
+}
+
+.option-ico li {
+  border-left: 1px solid $gray-four;
+  padding: 0 10px;
+  line-height: 12px;
+  font-size: 18px;
+  float: right;
+}
+
+.option-ico.second li {
+  border: none;
+  line-height: 36px;
+}
+
+.option-ico li:last-child {
+  border: none;
+}
+
+.option-ico li a {
+  color: $gray-four;
+}
+
+.option-ico .search .form-control {
+  width: 100%;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.option-ico .search .search-btn {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 10px;
+}
+
+.option-ico .search .search-btn a {
+  color: $gray-four;
+}
+
+.list-invoice {
+  background: $gray-three;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 15px;
+  float: left;
+}
+
+.list-invoice h2 {
+  color: $white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.list-invoice h2 a {
+  color: $white;
+  font-size: 30px;
+  line-height: 10px;
+  float: right;
+}
+
+.list-invoice label {
+  color: $white;
+}
+
+.invoice-info {
+  margin: 10px 0 0 0;
+  padding-bottom: 15px;
+  border-top: 4px solid $gray-seven;
+  border-bottom: 4px solid $gray-seven;
+  width: 100%;
+}
+
+.invoice-info a {
+  color: $gray-six;
+  font-size: 16px;
+}
+
+.invoice-info th {
+  color: $gray-five;//$gray-two;
+}
+
+.datepicker-group {
+  display: flex;
+}
+
+.datepicker-group [name="CheckSentDate"] {
+  margin-top: 0px;
+}
+
+.page-item {
+  padding: 0 5px;
+}
+
+.page-item:first-child .page-link {
+  float: left;
+}
+
+.page-item:last-child .page-link {
+  float: right;
+}
+
+.page-link {
+  color: $darker-gray;
+  padding: 0;
+  border: none;
+  float: none;
+}
+
+.page-link:focus, .page-link:hover {
+  background: transparent;
+  color: #666;
+}
+
+.page-item .arrow {
+  color: #6d6e71;
+  font-size: 32px;
+  line-height: 20px;
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+.page-item .arrow.next {
+  margin: 0 0 0 5px;
+  float: right;
+}
+
+/* invoice inprocess */
+.back {
+  color: $gray-six;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.custom-radio {
+  display: none;
+  font-size:14px;
+}
+
+.custom-radio + label {
+  position: relative;
+  padding-left: 22px;
+  color: $black;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.custom-radio + label:before {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  content: "";
+  border: 2px solid $light-gray;
+  left: 0;
+  top: 0;
+  transition: all 0.3s;
+  background: $white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.custom-radio:checked + label:before {
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.custom-radio + label:after {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  content: "";
+  transition: all 0.3s;
+  left: 3px;
+  border: 2px solid transparent;
+  top: 3px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.custom-radio:checked + label:after {
+  background: $red-two;
+}
+
+/* invoice inprocess */
+.datepicker {
+  background: url(../images/calendar.png) no-repeat 96% center $white;
+}
+
+.bottom-block {
+  background: $light-gray;
+  width: 100%;
+  margin: 40px 0 0 0;
+  padding: 25px 0;
+  float: left;
+}
+
+/* Invoice confirmation */
+.view-ico {
+  color: $gray-six;
+  font-size: 20px;
+}
+
+.confirmation h3 {
+  color: $black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.confirmation .nav-tabs .nav-link {
+  border-bottom: 8px solid transparent;
+}
+
+.confirmation .nav-tabs .nav-link.active, .confirmation .nav-tabs .nav-link.active:focus, .confirmation .nav-tabs .nav-link.active:hover, .confirmation .nav-tabs .nav-item.open .nav-link, .confirmation .nav-tabs .nav-item.open .nav-link:focus, .confirmation .nav-tabs .nav-item.open .nav-link:hover {
+  background: none;
+  border: none;
+  color: $darker-gray;//$gray-two;
+  border-bottom: 8px solid $gray-three;
+}
+
+.confirmation .nav-tabs .nav-item {
+  margin-bottom: -8px;
+  margin-left: 0;
+}
+
+.confirmation .table {
+  margin: 0;
+}
+
+.confirmation .table tr {
+  position: relative;
+}
+
+.confirmation table tr th, .confirmation table tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.confirmation table tr th:first-child, .confirmation table tr td:first-child {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.confirmation.tab-pane {
+  padding-bottom: 0;
+}
+
+.confirmation .nav-tabs {
+  border-bottom: 8px solid $gray-four;
+}
+
+.confirmation .tab-pane {
+  background: none;
+}
+
+.confirmation tr th {
+  color: #a99598;
+  font-weight: 300;
+}
+
+.table-outer {
+  margin: 0;
+  padding-bottom: 7px;
+  border-bottom: 4px solid $gray-seven;
+}
+
+.confirmation hr, .my-profile hr {
+  border-width: 2px;
+  border-color: #d0d2d3;
+  margin-top: 0;
+}
+
+.delete-div {
+  background: #ed1c24;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: $white;
+  font-size: 16px;
+  line-height: 46px;
+}
+
+.delete-div img {
+  margin-right: 15px;
+}
+
+.delete-div a {
+  color: $white;
+}
+
+.last-month {
+  .modal-header {
+    background: $light-gray;
+    height: 46px;
+    line-height: 46px;
+    color: $gray-three;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .modal-content {
+    background-clip: inherit;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .modal-dialog .close-btn {
+    color: $white;
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+}
